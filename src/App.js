@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import Principles from "./pages/Principles/Principles";
 import Likes from "./pages/Likes/Likes";
 import Home from "./pages/Home/Home";
 import Learnings from "./pages/Learnings/Learnings";
@@ -11,7 +10,6 @@ function App() {
     <div style={{ backgroundColor: "#808080", height: "100vh" }}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="principles" element={<Principles />} />
         <Route path="likes" element={<Likes />} />
         <Route path="learnings" element={<Learnings />} />
         <Route path="projects" element={<Projects />} />

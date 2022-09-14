@@ -46,7 +46,7 @@ const HttpFpsi = () => {
             checked={selected === "no"}
           />
           <label htmlFor="no" style={{ marginLeft: "5px" }}>
-            <b> Fpsi / Web3 </b>
+            <b> Ipfs / Web3 </b>
           </label>
         </div>
       </div>
