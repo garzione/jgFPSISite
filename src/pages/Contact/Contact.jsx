@@ -72,7 +72,6 @@ const Contact = () => {
       default:
         break;
     }
-    console.log(con);
   };
 
   return (

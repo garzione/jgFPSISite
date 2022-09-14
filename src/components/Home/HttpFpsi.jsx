@@ -4,10 +4,9 @@ const HttpFpsi = () => {
   const [selected, setSelected] = useState("no");
 
   const handleChange = (event) => {
-    console.log(event.target.value);
     setSelected(event.target.value);
     if (selected === "yes") {
-      window.open("https://garzione.eth.link");
+      window.open("https://garzione.eth.limo");
     } else {
       window.open("https://garzi.one");
     }
