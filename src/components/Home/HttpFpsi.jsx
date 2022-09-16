@@ -8,7 +8,7 @@ const HttpFpsi = () => {
     if (selected === "yes") {
       window.open("https://garzione.eth.limo");
     } else {
-      window.open("https://www.garzi.one");
+      window.open("http://www.garzi.one");
     }
   };
 
